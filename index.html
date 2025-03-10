@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>张鹏飞的简历</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header, section {
+            margin-bottom: 30px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: none;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #222;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 8px;
+            color: #555;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section-content p, .section-content li {
+            margin: 10px 0;
+        }
+        /* 主修课程响应式横向排版样式 */
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .course {
+            background: #f0f0f0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 30px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        @media screen and (max-width: 768px) {
+            .course {
+                flex: 1 1 calc(50% - 30px);
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .course {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>张鹏飞</h1>
+    <div class="contact-info">
+        <p>电话：+86 136-2322-0886</p>
+        <p>邮箱：<a href="mailto:EricChang@88.com">EricChang@88.com</a></p>
+    </div>
+</header>
+
+<section>
+    <h2>教育背景</h2>
+    <div class="section-content">
+        <p><strong>桂林理工大学</strong> - 网络工程</p>
+        <p>2018年9月 – 2022年7月</p>
+    </div>
+</section>
+
+<section>
+    <h2>专业技能</h2>
+    <div class="section-content">
+        <ul>
+            <li><strong>编程语言：</strong> HTML, CSS, Golang, Python, PHP, SQL</li>
+            <li><strong>前端框架：</strong> Vue, Bootstrap</li>
+            <li><strong>后端与工具：</strong> NodeJS, TypeScript, Webpack</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>工作经历</h2>
+    <div class="section-content">
+        <p><strong>保定市立象电子科技有限公司</strong> - 运维工程师</p>
+        <p>2023年6月至今</p>
+        <ul>
+            <li>日常巡检和性能监控，确保网络、服务器、数据库及系统硬件稳定运行。</li>
+            <li>与软件公司紧密沟通，收集问题反馈，并协助故障定位及修复。</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>求职目标</h2>
+    <div class="section-content">
+        <p>寻求软件后端开发岗位，期望通过与优秀团队的合作不断提升技能，为企业发展贡献力量。</p>
+    </div>
+</section>
+
+<section>
+    <h2>主修课程</h2>
+    <div class="section-content courses">
+        <div class="course">Python 程序设计</div>
+        <div class="course">移动编程技术</div>
+        <div class="course">算法设计与分析</div>
+        <div class="course">C 语言程序设计</div>
+        <div class="course">C++ 面向对象编程</div>
+        <div class="course">互联网协议设计</div>
+        <div class="course">Web 系统开发</div>
+        <div class="course">数据结构</div>
+        <div class="course">操作系统/Linux</div>
+        <div class="course">Oracle 数据库</div>
+    </div>
+</section>
+
+<section>
+    <h2>项目经验与技能</h2>
+    <div class="section-content">
+        <ul>
+            <li><strong>Web开发：</strong>熟练使用 Python、PHP、NodeJS 构建 Web 程序或脚本。</li>
+            <li><strong>创业项目：</strong>独立负责基于 ThinkPHP + 微信小程序的二手物品交易平台前后端开发及上线维护。</li>
+            <li><strong>疫情期间项目：</strong>使用 Django、Vue、Bootstrap 构建班级学生信息收集网站，并利用 xlsxwriter 导出 Excel 表格，显著提升信息收集效率。</li>
+            <li><strong>团队协作：</strong>担任项目组长，通过需求分析和建模，规划基于 SpringBoot 与 Vue 的项目架构，协助完成基于 SSM 的投票管理与统计系统。</li>
+            <li><strong>接口对接：</strong>在工作中通过 Web API 与医保系统对接，实现5701接口的患者病例及检查检验资料上报，有效降低重复劳动。</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>计算机与运维能力</h2>
+    <div class="section-content">
+        <ul>
+            <li><strong>操作系统与脚本：</strong>熟练使用 Windows、Linux 等操作系统，熟练使用 Shell 与 Python 进行脚本编写，熟悉 Github Action 实现 CI/CD。</li>
+            <li><strong>系统管理：</strong>掌握 Debian、Arch 等发行版，熟悉 Unix 开发、Shell 脚本、Systemd 及错误追踪。</li>
+            <li><strong>网络技能：</strong>通过 Hurricane Electric 的 Sage 测验，具备扎实的网络原理和各类服务经验。</li>
+            <li><strong>容器技术：</strong>熟悉 Docker 容器构建与分发部署。</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>英语能力</h2>
+    <div class="section-content">
+        <p>通过大学英语四六级考试，具备阅读英文书籍和技术文档的能力，能够进行高效的英文邮件沟通。</p>
+    </div>
+</section>
+</body>
+</html>
